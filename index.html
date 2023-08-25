@@ -3,13 +3,25 @@
 
 <head>
     <title>Lamborghini Aventador LP 700-4</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
     <style>
-        
-        .button-container {
+        body 
+        {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .button-container 
+        {
             margin-top: 20px;
         }
-        
-        .button {
+
+        .button 
+        {
             display: inline-block;
             padding: 10px 20px;
             margin: 0 10px;
@@ -22,31 +34,39 @@
             cursor: pointer;
         }
     </style>
+
 </head>
 
-<body style="background-color: black; color: white; font-family: Arial, sans-serif; text-align: center">
+<body>
 
-    <h1><img src="12.png" width="200" 
-        height="200">
-    </h1>
-    <h2 style="font-size: 55">
-        <font face = "Brush Script MT">Lamborghini Aventador LP 700-4</font>
+    <div class="container">
+        <h1><img src="12.png" width="200" height="200"></h1>
+        <h2 style="font-size: 55">
+            <font face="Brush Script MT">Lamborghini Aventador LP 700-4</font>
+        </h2>
+        <img src="1.jpg" class="img-fluid" alt="Lamborghini Aventador">
+        <p style="font-size: 24">
+            <em>The Aventador's finely tuned performance is a testament to our unwavering commitment to pushing
+                the boundaries of what's possible.
+                With a top speed of 217 mph, you're not just driving, you're embarking on a journey that blurs the
+                lines between reality and aspiration.
+                Take the wheel of the Lamborghini Aventador LP 700-4 and experience the fusion of power, art, and
+                innovation that defines the Lamborghini legacy.
+                Elevate your drive, and let your dreams accelerate into reality as you become part of the Lamborghini
+                family.
+                
+            </em>
         
-    </h2>
-    <img src="1.jpg" width="600" 
-    height="380">
-    <p style="font-size: 24">
-    <em>The Aventador's finely tuned performance is a testament to our unwavering <br>commitment to pushing the boundaries of what's possible. <br>
-        With a top speed of 217 mph, you're not just driving, you're embarking on <br>a  journey that blurs the lines between reality and aspiration.<br>
-        Take the wheel of the Lamborghini Aventador LP 700-4 and experience the <br>fusion of power, art, and innovation that defines the Lamborghini legacy.<br> 
-        Elevate your drive, and let your dreams accelerate into reality as you <br>become part of the Lamborghini family. <br>     
-    </em>
-    </p>
-    <p class="button-container"></p>
-        <a href="gallery.html" style="color: black" class="button"><b>Gallery</b></a> 
-        <a href="price_table.html"  style="color: black" class="button"><b>Price</b></a>
-    </p>
+        </p>
+        <div class="button-container">
+            <a href="gallery.html" class="btn btn-warning"><b>Gallery</b></a>
+            <a href="price_table.html" class="btn btn-warning"><b>Price</b></a>
+        </div>
+    </div>
 
+    <!-- Include Bootstrap JS and jQuery (for Bootstrap features) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
